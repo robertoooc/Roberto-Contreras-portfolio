@@ -6,6 +6,7 @@ import Projects from '@/components/Projects'
 // import About from '../components/About'
 // import styles from '@/styles/Home.module.css'
 import { typingTestApp,musicApp,chatApp,tag } from '@/constants/constants'
+import TechStack from '@/components/TechStack'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
       <div className=''>
         <About/>
         <div>
+          <div className='text-center text-3xl font-medium'>Tech Stack</div>
+          <TechStack/>
           <div className='text-center text-3xl font-medium'>Projects</div>
           <Projects project={typingTestApp}/>
           <Projects project={musicApp}/>

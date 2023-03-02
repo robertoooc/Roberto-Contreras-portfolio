@@ -4,7 +4,7 @@ export default function Projects ({project}){
     if(project.github.length>1){
         github = (
             <div className="flex space-x-5 mt-1">
-                <a href={project.github[0]} target='_blank'>Backend Github</a>
+                <a href={project.github[1]} target='_blank'>Backend Github</a>
                 <p> | </p>
                 <a href={project.github[0]} target='_blank'>Frontend Github</a>
             </div>
