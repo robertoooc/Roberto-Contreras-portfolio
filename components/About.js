@@ -57,8 +57,8 @@ return(
                     </p>
                 </div>
             </div>
-            <div style={{backgroundColor:'rgb(32,32,32)',color:"white"}} className='min-w-fit mx-10 rounded-lg font-thin tracking-wide'>
-                <div className="flex mt-2 space-x-5">
+            <div style={{backgroundColor:'rgb(32,32,32)',color:"white"}} className='h-fit my-auto mx-10 rounded-lg font-thin tracking-wide'>
+                <div className="flex my-5 space-x-5 h-fit ">
                     <div className="border-r-2 pr-1 ">
                         <p className="indent-5 ">1</p>
                         <p className="indent-5 ">2</p>
@@ -67,7 +67,7 @@ return(
                         <p className="indent-5 ">5</p>
                     </div>
 
-                    <div>
+                    <div className="h-fit ">
                         <p>{`{`}</p>
                         <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"name" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
                         <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
