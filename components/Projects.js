@@ -1,9 +1,21 @@
 import Image from "next/image"
-import typingTestApp from '../public/imgs/TypingTestApp.png'
-// import chatApp from '../public/imgs/chatApp.png'
-// import tag from '../public/imgs/tag.png'
-// import musicApp from '../public/imgs/musicApp.png'
 export default function Projects ({project}){
+    let github
+    if(project.github.length>1){
+        github = (
+            <div className="flex space-x-5 mt-1">
+                <a href={project.github[0]} target='_blank'>Backend Github</a>
+                <p> | </p>
+                <a href={project.github[0]} target='_blank'>Frontend Github</a>
+            </div>
+        )
+    }else{
+        github= (
+            <div className="mt-1">
+              <a href={project.github[0]} target='_blank'>Github</a>  
+            </div>
+        )
+    }
     let technologies=''
     project.technologies.forEach((tech)=> technologies+= ` ${tech} |`)
     return(
@@ -17,25 +29,22 @@ export default function Projects ({project}){
                             />
                         </div>
                         <div className="sm:mx-5">
-                            <div>
-                                <p>Technologies:</p>
+                            <div className="mt-1">
+                                <p className="border-b">Technologies:</p>
                                 <p>{technologies}</p>
                             </div>
                             <br></br>
                             <div>
-                                <p>Description:</p>
+                                <p className="border-b">Description:</p>
                                 <p>{project.description}</p>
                             </div>
-                            <div>
-                                <p>Links: </p>
-                                <div className='flex justify-center'>
-                                    <div>
-                                        <button onClick={()=>window.open(`${project.demo}`, "_blank")}>Demo</button>
-                                        <p>Email: demo@account</p>
-                                        <p className='text-center'>Password: demo</p>
-                                    </div>
-                                    <div>
-                                        <button onClick={()=>window.open(`${project.github}`, "_blank")}>Github</button>
+                            <div className="mt-2">
+                                <p className="border-b">Links: </p>
+                                <div>
+                                    {github}
+                                    <div className="flex space-x-5 mt-1">
+                                        <a href={project.demo} target='_blank'>Demo</a>
+                                        <p>Email: demo@account | Password: demo</p>
                                     </div>
                                 </div>
                             </div>
