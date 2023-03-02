@@ -5,7 +5,7 @@ import About from '@/components/About'
 import Projects from '@/components/Projects'
 // import About from '../components/About'
 // import styles from '@/styles/Home.module.css'
-
+import { typingTestApp,musicApp,chatApp,tag } from '@/constants/constants'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,8 +17,14 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <div className=''>
-        <About/>  
-        <Projects/>
+        <About/>
+        <div>
+          <div className='text-center text-3xl font-medium'>Projects</div>
+          <Projects project={typingTestApp}/>
+          <Projects project={musicApp}/>
+          <Projects project={chatApp}/>
+          <Projects project={tag}/>
+        </div>  
       </div>
     </div>
   )
