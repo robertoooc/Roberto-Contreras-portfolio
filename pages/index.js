@@ -21,7 +21,7 @@ export default function Home() {
       <div className=''>
         <About/>
         <div>
-          <div className='text-center text-3xl font-medium'>Tech Stack</div>
+          <div className='text-center text-3xl font-medium'>Skills</div>
           <TechStack/>
           <div className='text-center text-3xl font-medium'>Projects</div>
           <Projects project={typingTestApp}/>
