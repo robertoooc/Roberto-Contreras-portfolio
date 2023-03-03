@@ -7,6 +7,7 @@ import Projects from '@/components/Projects'
 // import styles from '@/styles/Home.module.css'
 import { typingTestApp,musicApp,chatApp,tag } from '@/constants/constants'
 import TechStack from '@/components/TechStack'
+import Contact from '@/components/Contact'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -27,7 +28,8 @@ export default function Home() {
           <Projects project={musicApp}/>
           <Projects project={chatApp}/>
           <Projects project={tag}/>
-        </div>  
+        </div>
+        <Contact/>  
       </div>
     </div>
   )
