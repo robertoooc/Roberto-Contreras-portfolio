@@ -1,7 +1,7 @@
 
 export default function TechStack(){
     return(
-        <div className='flex justify-center space-x-1 sm:space-x-5'>
+        <div className='flex justify-center space-x-1 sm:space-x-5 my-5' id='projects'>
             <div>
                 <img src='https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png' className='w-10 sm:w-16'/>
             </div>

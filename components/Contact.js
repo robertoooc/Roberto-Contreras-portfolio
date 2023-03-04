@@ -5,7 +5,7 @@ import {MdOutlineMail,MdPhoneIphone} from 'react-icons/md'
 export default function Contact(){
     return(
         <div> {console.log('plz hire me 🙏')}
-            <div className='text-center text-3xl font-medium'>Get in Touch</div>
+            <div className='text-center text-3xl font-medium underline' id='contact'>Get in Touch</div>
             <div className='mb-5 text-lg'>
                  <p className='text-center w-3/4 sm:w-1/2 mx-auto' >Please feel free to reach out to me if you have any questions or would like to hear more about my projects. I am easily reachable at all of the links posted below. Lets talk!</p>
                 <div className='mx-auto w-fit bg-white rounded-md mt-5'>

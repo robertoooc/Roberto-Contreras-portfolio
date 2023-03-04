@@ -20,15 +20,19 @@ export default function Home() {
       <div>
         <About/>
         <div>
-          <div className='text-center text-3xl font-medium'>Skills</div>
+          <div className='text-center text-3xl font-medium mt-10 underline '>Skills</div>
           <TechStack/>
-          <div className='text-center text-3xl font-medium'>Projects</div>
-          <Projects project={typingTestApp}/>
-          <Projects project={musicApp}/>
-          <Projects project={chatApp}/>
-          <Projects project={tag}/>
-        </div>
-        <Contact/>  
+          <div>
+            <div className='text-center text-3xl font-medium mt-10 underline' >Projects</div>
+            <Projects project={typingTestApp}/>
+            <Projects project={musicApp}/>
+            <Projects project={chatApp}/>
+            <Projects project={tag}/>
+          </div>
+          </div>
+          <div className='mt-10'>
+            <Contact/>  
+          </div>
       </div>
     </div>
   )

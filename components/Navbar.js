@@ -12,22 +12,22 @@ export default function Navbar(){
         <div className="sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center w-full bg-[rgb(32,32,32)] text-center ease-in duration-300 h-min">
             <ul>
                 <li className="p-4 text-4xl hover:text hover:text-gray-500">
-                    <Link href='/'>
-                        Home
-                    </Link>
-                </li>
-                <li className="p-4 text-4xl hover:text hover:text-gray-500">
-                    <Link href='/about'>
+                    <Link href='/' scrollSmooth>
                         About
                     </Link>
                 </li>
+                <li className="p-4 text-4xl hover:text hover:text-gray-500" >
+                    <Link href='#myStory' scrollSmooth>
+                        My Story
+                    </Link>
+                </li>
                 <li className="p-4 text-4xl hover:text hover:text-gray-500">
-                    <Link href='/projects'>
+                    <Link href='#projects' scrollSmooth>
                         Projects
                     </Link>
                 </li>
                 <li className="p-4 text-4xl hover:text hover:text-gray-500">
-                    <Link href='/contact'>
+                    <Link href='#contact' scrollSmooth>
                         Contact
                     </Link>
                 </li>
@@ -44,22 +44,22 @@ export default function Navbar(){
                 </Link>
                 <ul className="hidden sm:flex ">
                     <li className='p-4 text-xl'>
-                        <Link href='/'>
-                            Home
-                        </Link>
-                    </li>
-                    <li className='p-4 text-xl'>
-                        <Link href='/about'>
+                        <Link href='/' scrollSmooth>
                             About
                         </Link>
                     </li>
                     <li className='p-4 text-xl'>
-                        <Link href='/projects'>
+                        <Link href='#myStory' scrollSmooth>
+                            My Story
+                        </Link>
+                    </li>
+                    <li className='p-4 text-xl'>
+                        <Link href='#projects' scrollSmooth>
                             Projects
                         </Link>
                     </li>
                     <li className='p-4 text-xl'>
-                        <Link href='/contact'>
+                        <Link href='#contact' scrollSmooth>
                             Contact
                         </Link>
                     </li>

@@ -2,8 +2,8 @@ import Image from "next/image"
 import Timeline from "./Timeline"
 const About  = ()=>{
 return(
-    <div className="sm:mt-20 mt-6">
-        <div className='text-center text-3xl font-medium pt-12 '>About</div>
+    <div className="sm:mt-20 mt-6" id='about'>
+        <div className='text-center text-3xl font-medium pt-12 underline'>About</div>
         <div className="grid grid-cols-1 sm:grid-cols-2 auto-rows-fr ">
             <div className="flex justify-center sm:justify-end h-fit">
                 <div>
@@ -48,12 +48,7 @@ return(
                                 <p>],</p>
                             
                         </div>
-                        <p>{`}`}</p>
-                        {/* <p>{`more : {`}</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"resume" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"location" : <span style={{color:'rgb(220,150,104)'}}>"Los Angeles, CA"</span>,</p>
-                        <p>{`},`}</p> */}
+                        <p id='myStory'>{`}`}</p>
                     </div>
                 </div>
 
