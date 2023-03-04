@@ -5,13 +5,14 @@ import {MdClose} from 'react-icons/md'
 import Timeline from "./Timeline"
 const About  = ()=>{
 return(
-    <div className="mt-5">
-        <div className="grid grid-cols-1 sm:grid-cols-2 auto-rows-fr">
+    <div className="sm:mt-20 mt-6">
+        <div className='text-center text-3xl font-medium pt-12 '>About</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 auto-rows-fr ">
             <div className="flex justify-center sm:justify-end h-fit">
                 <div>
                     <Image src='/imgs/portfolioPicture.png' alt="me" width="180" height="180" style={{borderRadius:'100px'}} className='mx-auto'/>
-                    <p className="mx-5 ">
-                        As a highly motivated and coachable full stack developer, I am looking forward to continuing to develop my overall abilities wherever my career takes me. With the soft skills I have developed through my time working in the food industry coupled with my growing technical skills, I am able to effectively communicate with coworkers, stay focused in the face of increasing deadline pressure, and most importantly, increase production speed. Aside from coding, I enjoy rock climbing and further improving my kitchen skills.
+                    <p className="mx-5 text-lg">
+                        As a highly motivated and coachable full stack developer, I am looking forward to continuing to develop my overall abilities wherever my career takes me. With the soft skills I have developed through my time working in the food industry coupled with my growing technical skills, I am able to effectively communicate with coworkers, stay focused in the face of increasing deadline pressure, and most importantly, increase production speed.
                     </p>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function Navbar(){
     //     setNav(!nav)
     // }
     const mobileNav=(
-        <div className="sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center w-full bg-black text-center ease-in duration-300 h-min" style={{backgroundColor: 'black', color:'white'}}>
+        <div className="sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center w-full bg-[rgb(32,32,32)] text-center ease-in duration-300 h-min">
             <ul>
                 <li className="p-4 text-4xl hover:text hover:text-gray-500">
                     <Link href='/'>
@@ -37,28 +37,28 @@ export default function Navbar(){
     return(
 
 
-        <div style ={{backgroundColor: 'black', color:'white'}}className="fixed left-0 top-0 w-full z-10 ease-in duration-300 relative">
+        <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-[rgb(32,32,32)]">
             <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
                 <Link href=''>
                     <h1></h1>
                 </Link>
                 <ul className="hidden sm:flex ">
-                    <li className='p-4'>
+                    <li className='p-4 text-xl'>
                         <Link href='/'>
                             Home
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-xl'>
                         <Link href='/about'>
                             About
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-xl'>
                         <Link href='/projects'>
                             Projects
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-xl'>
                         <Link href='/contact'>
                             Contact
                         </Link>
