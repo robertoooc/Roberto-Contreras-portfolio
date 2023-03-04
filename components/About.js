@@ -1,7 +1,4 @@
 import Image from "next/image"
-import { useState } from "react"
-import {BiPlus} from 'react-icons/bi'
-import {MdClose} from 'react-icons/md'
 import Timeline from "./Timeline"
 const About  = ()=>{
 return(
@@ -28,19 +25,35 @@ return(
                         <p className="indent-5 ">7</p>
                         <p className="indent-5 ">8</p>
                         <p className="indent-5 ">9</p>
+                        <p className="indent-5 ">10</p>
+                        <p className="indent-5 ">11</p>
+                        <p className="indent-5 ">12</p>
                     </div>
 
-                    <div className="h-fit ">
+                    <div className="h-fit">
                         <p>{`{`}</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"name" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
-                        <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"location" : <span style={{color:'rgb(220,150,104)'}}>"Los Angeles, CA"</span>,</p>
-                        <p>{`},`}</p>
-                        <p>{`{`}</p>
+                        <div className="indent-5 border-l border-dotted">
+                             
+                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"name" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
+                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
+                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"location" : <span style={{color:'rgb(220,150,104)'}}>"Los Angeles, CA"</span>,</p>
+                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"open" : <span style={{color:'rgb(220,150,104)'}}>"Resume"</span>,</p>
+                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"hobbies" : <span className="text-white">[</span></p>
+                                <div className="text-[rgb(220,150,104)] indent-10">
+                                <p>"rock climbing"<span className="text-white">,</span></p>
+                                <p>"cooking"<span className="text-white">,</span></p>
+                                <p>"exploring new music"<span className="text-white">,</span></p>
+                                <p>"tinkering with arduions"<span className="text-white">,</span></p>
+                                </div>
+                                <p>],</p>
+                            
+                        </div>
+                        <p>{`}`}</p>
+                        {/* <p>{`more : {`}</p>
                         <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"resume" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
                         <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
                         <p className="indent-5 border-l border-dotted" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"location" : <span style={{color:'rgb(220,150,104)'}}>"Los Angeles, CA"</span>,</p>
-                        <p>{`},`}</p>
+                        <p>{`},`}</p> */}
                     </div>
                 </div>
 
