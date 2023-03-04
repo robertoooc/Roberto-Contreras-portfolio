@@ -1,4 +1,4 @@
-import {SiTypescript,SiJavascript,SiNodedotjs,SiHtml5,SiCss3,SiTailwindcss,SiReact,SiExpress,SiPostgresql,SiMongodb,SiGit,} from 'react-icons/si'
+
 export default function TechStack(){
     return(
         <div className='flex justify-center space-x-1 sm:space-x-5'>

@@ -34,3 +34,25 @@ export const tag = {
     demo: 'https://robertoooc.github.io/project1-pitch/',
     img: tagImg
 }
+
+export const timeline=[
+    {
+        year: 2018,
+        text: 'Initial introduction into engineering through Vex Robotics, was able to compete in tournaments and my team even qualified and competed at a signature event hosted in one of the Google buildings in Sunnyvale, CA.'
+    },
+    {
+        year: 2020,
+        text: 'The start of my 2 year journey in working in restaurants. Gained multiple experiences from it that not only helped me grow and mature as a person but also provided some usesful transferrable skills.'
+    },
+    {
+        year: 2021,
+        text: 'Gained my first interaction to programming through taking Ap Computer Science. It helped further guide my decision into which engineering pathway I wanted to pursue.'
+    },
+    {
+        year: 2022,
+        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program."
+    },{
+        year: 2023,
+        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program."
+    }
+]
