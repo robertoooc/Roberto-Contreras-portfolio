@@ -19,7 +19,7 @@ export default function Projects ({project}){
     let technologies=''
     project.technologies.forEach((tech)=> technologies+= ` ${tech} |`)
     return(
-                <div className="mx-5 border p-5 mb-5">
+                <div className="mx-5 border-2 p-5 mb-5 border-black">
                     <h1 className="text-xl font-medium">{project.name}</h1>
                     <div className="sm:flex">
                         <div className="w-fit sm:w-8/12">

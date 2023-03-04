@@ -3,7 +3,7 @@ import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return (
-    <div>
+    <div className='bg-[rgb(228,221,197)]'>
     {/* navbar above */}
     <Navbar/>
     <Component {...pageProps} />

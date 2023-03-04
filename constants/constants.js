@@ -2,6 +2,13 @@ import typingTestAppImg from '../public/imgs/TypingTestApp.png'
 import chatAppImg from '../public/imgs/chatApp.png'
 import tagImg from '../public/imgs/tag.png'
 import musicAppImg from '../public/imgs/musicApp.png'
+import {GiDiploma,GiMeatCleaver} from 'react-icons/gi'
+import {RiComputerLine} from 'react-icons/ri'
+import {SiProbot} from 'react-icons/si'
+import {GrCertificate} from 'react-icons/gr'
+import {FaJava} from 'react-icons/fa'
+
+
 export const typingTestApp = {
     name: 'Typing Test App',
     technologies: ['MongoDb',"React",'Express.js',"Node.js","Typescript"],
@@ -38,21 +45,26 @@ export const tag = {
 export const timeline=[
     {
         year: 2018,
-        text: 'Initial introduction into engineering through Vex Robotics, was able to compete in tournaments and my team even qualified and competed at a signature event hosted in one of the Google buildings in Sunnyvale, CA.'
+        text: 'Initial introduction into engineering through Vex Robotics, was able to compete in tournaments and my team even qualified and competed at a signature event hosted in one of the Google buildings in Sunnyvale, CA.',
+        icon:<SiProbot size={40}/>
     },
     {
         year: 2020,
-        text: 'The start of my 2 year journey in working in restaurants. Gained multiple experiences from it that not only helped me grow and mature as a person but also provided some usesful transferrable skills.'
+        text: 'The start of my 2 year journey in working in restaurants. Gained multiple experiences from it that not only helped me grow and mature as a person but also provided some usesful transferrable skills.',
+        icon:<GiMeatCleaver size={40}/>
     },
     {
         year: 2021,
-        text: 'Gained my first interaction to programming through taking Ap Computer Science. It helped further guide my decision into which engineering pathway I wanted to pursue.'
+        text: 'Gained my first interaction to programming through taking Ap Computer Science and was immediately drawn to it. It helped further guide my decision into which engineering pathway I wanted to pursue.',
+        icon: <FaJava size={40}/>
     },
     {
         year: 2022,
-        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program."
+        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program.",
+        icon: <GiDiploma size={40}/>
     },{
         year: 2023,
-        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program."
+        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program.",
+        icon: <RiComputerLine size={40}/>
     }
 ]

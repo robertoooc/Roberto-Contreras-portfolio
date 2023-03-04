@@ -45,41 +45,7 @@ return(
 
             </div>
         </div>
-        <div className="my-0">
-            <h1 className="text-center text-3xl font-medium ">My Story</h1>
             <Timeline/>
-        </div>
-        {/* <div className="flex items-center p-3 space-x-5">
-            <div>
-                    <div>
-                        <h1 className="text-center text-3xl font-medium ">Timeline</h1>
-                    </div>
-                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-5 auto-rows-fr">
-                        <div style={{backgroundColor:'gray'}} className='items-center p-2'>
-                            <div className='text-center text-xl font-bold'>2018</div>
-                            <div>Initial introduction into engineering through Vex Robotics, was able to compete in tournaments and my team even qualified and competed at a signature event hosted in one of the Google buildings in Sunnyvale, CA.</div>
-                        </div>
-                        <div style={{backgroundColor:'gray'}} className='items-center p-2'>
-                            <div className='text-center text-xl font-bold'>2020</div>
-                            <div>The start of my 2 year journey in working in restaurants. Gained multiple experiences from it that not only helped me grow and mature as a person but also provided some usesful transferrable skills. </div>
-                        </div>
-                        <div style={{backgroundColor:'gray'}} className='items-center p-2'>
-                            <div className='text-center text-xl font-bold'>2021</div>
-                            <div>Gained my first interaction to programming through taking Ap Computer Science. It helped further guide my decision into which engineering pathway I wanted to pursue.</div>
-                        </div>
-                        <div style={{backgroundColor:'gray'}} className='items-center p-2'>
-                            <div className='text-center text-xl font-bold'>2022</div>
-                            <div>I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program.</div>
-                        </div>
-                        <div style={{backgroundColor:'gray'}} className='items-center p-2'>
-                            <div className='text-center text-xl font-bold'>2023</div>
-                            <div>Graduated from General Assembly </div>
-                        </div>  
-                    </div>
-            </div>
-            
-        </div> */}
-
     </div>
 )
 }
