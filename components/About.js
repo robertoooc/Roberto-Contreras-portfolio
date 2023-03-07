@@ -37,13 +37,13 @@ return(
                                 <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"name" : <span style={{color:'rgb(220,150,104)'}}>"Roberto Contreras"</span>,</p>
                                 <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"role" : <span style={{color:'rgb(220,150,104)'}}>"Software Engineer"</span>,</p>
                                 <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"location" : <span style={{color:'rgb(220,150,104)'}}>"Los Angeles, CA"</span>,</p>
-                                <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"open" : <span style={{color:'rgb(220,150,104)'}}>"Resume"</span>,</p>
+                                <a href="/RobertoContrerasResume.pdf" target='_blank'><p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"open" : <span style={{color:'rgb(220,150,104)'}} className='underline'>"Resume"</span>,</p></a>
                                 <p className="indent-5" style={{color:'rgb(123,174,212)',borderColor:'white'}}>"hobbies" : <span className="text-white">[</span></p>
                                 <div className="text-[rgb(220,150,104)] indent-10">
                                 <p>"rock climbing"<span className="text-white">,</span></p>
-                                <p>"cooking"<span className="text-white">,</span></p>
-                                <p>"exploring new music"<span className="text-white">,</span></p>
-                                <p>"tinkering with arduions"<span className="text-white">,</span></p>
+                                <p>"improving kitchen skills"<span className="text-white">,</span></p>
+                                <p>"exploring new k-bbq"<span className="text-white">,</span></p>
+                                <p>"finding new music"<span className="text-white">,</span></p>
                                 </div>
                                 <p>],</p>
                             
