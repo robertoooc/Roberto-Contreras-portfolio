@@ -64,7 +64,7 @@ export const timeline=[
         icon: <GiDiploma size={40}/>
     },{
         year: 2023,
-        text: "I took initiative in graduating High School a year early, ambitiously wanting to get started on pursuing a career and enrolled into General Assembly's Software Engineering Immersive program.",
+        text: "Completed General Assembly's Software Immersive program. Currently working on a project, a kahoot replica in typescript to showcase better understanding of websockets and typescript.",
         icon: <RiComputerLine size={40}/>
     }
 ]
