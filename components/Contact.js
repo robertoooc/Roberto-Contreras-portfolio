@@ -29,7 +29,7 @@ export default function Contact(){
 
                 <a href='https://www.linkedin.com/in/roberto-contreras-882737241/' target='_blank' className='bg-white rounded-full my-5'><BsLinkedin size={25} className='place-self-center m-2'/></a>
 
-                <a href='tel:424-571-0636' className='bg-white rounded-full my-5'><MdPhoneIphone size={25} className='place-self-center m-2'/></a>
+                <a href='mailto:robertocontrerasdev@gmail.com' target='_blank' className='bg-white rounded-full my-5'><MdOutlineMail size={25} className='place-self-center m-2'/></a>
             </div>
         </div>
     )
