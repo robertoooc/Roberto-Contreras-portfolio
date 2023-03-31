@@ -64,7 +64,7 @@ export const timeline=[
         icon: <GiDiploma size={40}/>
     },{
         year: 2023,
-        text: "Completed General Assembly's Software Immersive program. Currently working on a project, a kahoot replica in typescript to showcase better understanding of websockets and typescript.",
+        text: "Completed General Assembly's Software Immersive program. Currently working on a project, a HotSchedules replica in typescript to showcase better understanding of SQL databases.",
         icon: <RiComputerLine size={40}/>
     }
 ]
