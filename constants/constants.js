@@ -11,7 +11,7 @@ export const typingTestApp = {
   name: "Typing Test App",
   technologies: ["MongoDb", "React", "Express.js", "Node.js", "Typescript"],
   description:
-    "This project's main goal was to learn a new technology and implement it to create a Full-Stack CRUD App, I chose to use Typescript due to it's high demand in the job market. ",
+    "A user-friendly web application was developed using React, Node.js, Express, Tailwind CSS, Victory, and TypeScript.                                              It features a typing test with personalized recommendations and user accounts for storing previous tests, along with visual charts for easy performance tracking. ",
   github: [
     "https://github.com/robertoooc/TypingTestApp-client",
     "https://github.com/robertoooc/TypingTestApp-server",
@@ -30,7 +30,7 @@ export const musicApp = {
     "Last.fm API",
   ],
   description:
-    "Full-stack EJS/Node.js music application allowing users to search any songs, view song details, create playlists, and view other public playlists made by others.",
+    "Developed an engaging lyrics web application that seamlessly combines the MusixMatch API for song search and details with album images from the Last.fm API. Users can create playlists, both private and public, with interactive features such as commenting and liking by other users, fostering a social and enjoyable experience.",
   github: ["https://github.com/robertoooc/project-2"],
   demo: "https://roberto-project-two-1114.herokuapp.com/",
   img: musicAppImg,
@@ -51,7 +51,7 @@ export const tag = {
   name: "Tag",
   technologies: ["HTML-Canvas", "CSS", "Javascript"],
   description:
-    "Created a Front-end game based on hit detection and sprite animations. Originally took inspiration from the online game 'Fireboy and Watergirl', but took a different approach and created a 2 player tag game.",
+    "Developed a multiplayer game of tag using JavaScript and HTML Canvas with collision detection and sprite animations. Employed an Object-Oriented approach for code that is clear, flexible, and scalable.",
   github: ["https://github.com/robertoooc/project1-pitch"],
   demo: "https://robertoooc.github.io/project1-pitch/",
   img: tagImg,

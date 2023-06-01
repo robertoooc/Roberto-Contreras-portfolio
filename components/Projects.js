@@ -63,9 +63,9 @@ export default function Projects({ project }) {
   project.technologies.forEach((tech) => (technologies += ` ${tech} |`));
   return (
     <div className="mx-5 p-5 mb-5 text-lg">
-      <h1 className="text-xl font-medium">{project.name}</h1>
-      <div className="sm:flex">
-        <div className="w-fit sm:w-8/12">
+      <h1 className="text-3xl font-medium">{project.name}</h1>
+      <div className="xl:flex">
+        <div className="">
           <Image src={project.img} alt={project.name} />
         </div>
         <div className="sm:mx-5">
