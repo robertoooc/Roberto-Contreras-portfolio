@@ -1,5 +1,5 @@
 import typingTestAppImg from "../public/imgs/TypingTestApp.png";
-import discordBotImg from "../public/imgs/discordBot.png";
+import discordBotImg from "../public/imgs/DiscordBot.png";
 import tagImg from "../public/imgs/tag.png";
 import musicAppImg from "../public/imgs/musicApp.png";
 import { GiDiploma, GiMeatCleaver } from "react-icons/gi";
