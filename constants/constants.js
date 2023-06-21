@@ -54,7 +54,7 @@ export const musicApp = {
 };
 export const chatApp = {
   name: "Job Tracker Bot",
-  technologies: ["MongoDb", "Node.js", "Discordjs", "Heroku"],
+  technologies: ["MongoDb", "Node.js", "Discordjs", "Heroku", "OpenAI API"],
   description:
     "Developed and deployed a Discord bot using Discord.js paired with Heroku to enhance the job tracking experience. Created user commands for managing job postings, including viewing, updating statuses, and adding new postings. Additionally, I implemented custom cover letter capability using the OpenAI npm package. This feature generates personalized cover letters based on users' resumes and job descriptions.",
   github: [
