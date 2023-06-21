@@ -56,7 +56,7 @@ export const chatApp = {
   name: "Job Tracker Bot",
   technologies: ["MongoDb", "Node.js", "Discordjs", "Heroku"],
   description:
-    " Created a Discord bot using Discord.js, ready to infuse some fun into job tracking. With an effortless deployment on Heroku, this bot empowers users to explore job postings, update statuses, and add new opportunities through interactive commands. By integrating MongoDB as a reliable NoSQL database, the bot ensures seamless storage and organization of all job-related information, creating a dynamic and enjoyable job hunting experience.",
+    "Developed and deployed a Discord bot using Discord.js paired with Heroku to enhance the job tracking experience. Created user commands for managing job postings, including viewing, updating statuses, and adding new postings. Additionally, I implemented custom cover letter capability using the OpenAI npm package. This feature generates personalized cover letters based on users' resumes and job descriptions.",
   github: [
     "https://github.com/robertoooc/Discord-bot",
     "https://github.com/robertoooc/Discord-bot/blob/main/gifs/getResultsAll.gif",
@@ -68,7 +68,7 @@ export const chatApp = {
     { name: "Github", link: "https://github.com/robertoooc/Discord-bot" },
     {
       name: "View Gif",
-      link: "https://github.com/robertoooc/Discord-bot/blob/main/gifs/getResultsAll.gif",
+      link: "https://github.com/robertoooc/Discord-bot/blob/main/gifs/getResults.gif",
     },
     {
       name: "Invite Bot",
