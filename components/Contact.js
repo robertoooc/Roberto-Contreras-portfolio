@@ -6,7 +6,6 @@ import { GrDocumentPdf } from "react-icons/gr";
 export default function Contact() {
   return (
     <div>
-      {" "}
       {console.log("plz hire me 🙏")}
       <div className="text-center text-3xl font-medium underline" id="contact">
         Get in Touch

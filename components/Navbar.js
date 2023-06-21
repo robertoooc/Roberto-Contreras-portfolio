@@ -4,10 +4,6 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 export default function Navbar() {
   const [nav, setNav] = useState(false);
-  // const [showNav,setShowNav]
-  // const changeNav=()=>{
-  //     setNav(!nav)
-  // }
   const mobileNav = (
     <div className="sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center w-full bg-[rgb(32,32,32)] text-center ease-in duration-300 h-min">
       <ul>

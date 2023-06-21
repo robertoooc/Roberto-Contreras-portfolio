@@ -1,64 +1,11 @@
 import Image from "next/image";
 export default function Projects({ project }) {
-  // let github;
-  // if (project.github.length > 1) {
-  //   github = (
-  //     <div className="">
-  //       <div className="flex space-x-5 mt-1">
-  //         <a
-  //           href={project.github[1]}
-  //           target="_blank"
-  //           className="bg-zinc-800 text-white rounded-lg p-2 text-center"
-  //         >
-  //           Backend Github
-  //         </a>
-  //         <a
-  //           href={project.github[0]}
-  //           target="_blank"
-  //           className="bg-zinc-800 text-white rounded-lg p-2 text-center"
-  //         >
-  //           Frontend Github
-  //         </a>
-  //       </div>
-  //       <div className="flex space-x-5 mt-1">
-  //         <a
-  //           href={project.demo}
-  //           target="_blank"
-  //           className="bg-zinc-800 text-white rounded-lg p-2"
-  //         >
-  //           Demo
-  //         </a>
-  //         {project.demoAccount ? (<p className="place-self-center">
-  //           Email: demo@account | Password: demo
-  //         </p>) : (<p></p>)}
-  //       </div>
-  //     </div>
-  //   );
-  // } else {
-  //   github = (
-  //     <div className="mt-2">
-  //       <a
-  //         href={project.github[0]}
-  //         target="_blank"
-  //         className="bg-zinc-800 text-white rounded-lg p-2"
-  //       >
-  //         Github
-  //       </a>
-  //       <div className="flex space-x-5 mt-2">
-  //         <a
-  //           href={project.demo}
-  //           target="_blank"
-  //           className="bg-zinc-800 text-white rounded-lg p-2 "
-  //         >
-  //           Demo
-  //         </a>
-  //       </div>
-  //     </div>
-  //   );
-  // }
-  let buttons = project.buttons.map((button) =>{
+  let buttons = project.buttons.map((button) => {
     return (
-      <div className="flex space-x-5 mt-1" key={`button${project.buttons.indexOf(button)}`}>
+      <div
+        className="flex space-x-5 mt-1"
+        key={`button${project.buttons.indexOf(button)}`}
+      >
         <a
           href={button.link}
           target="_blank"
@@ -67,8 +14,8 @@ export default function Projects({ project }) {
           {button.name}
         </a>
       </div>
-    )
-  })
+    );
+  });
   let technologies = "";
   project.technologies.forEach((tech) => (technologies += ` ${tech} |`));
   return (
@@ -91,9 +38,13 @@ export default function Projects({ project }) {
           <div className="mt-2">
             <p className="border-b border-black font-medium">Links: </p>
             <div className="flex space-x-5">{buttons}</div>
-          {project.demoAccount ? (<p className="place-self-center mt-3">
-            Email: demo@account | Password: demo
-          </p>) : (<p></p>)}
+            {project.demoAccount ? (
+              <p className="place-self-center mt-3">
+                Email: demo@account | Password: demo
+              </p>
+            ) : (
+              <p></p>
+            )}
           </div>
         </div>
       </div>
