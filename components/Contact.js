@@ -43,6 +43,7 @@ export default function Contact() {
         <a
           href="https://github.com/robertoooc"
           target="_blank"
+          aria-label="GitHub"
           className="bg-white rounded-full my-5"
         >
           <VscGithubInverted size={25} className="place-self-center m-2" />
@@ -51,6 +52,7 @@ export default function Contact() {
         <a
           href="https://www.linkedin.com/in/roberto-contreras-882737241/"
           target="_blank"
+          aria-label="LinkedIn"
           className="bg-white rounded-full my-5"
         >
           <BsLinkedin size={25} className="place-self-center m-2" />
@@ -59,6 +61,7 @@ export default function Contact() {
         <a
           href="mailto:robertocontrerasdev@gmail.com"
           target="_blank"
+          aria-label="Email"
           className="bg-white rounded-full my-5"
         >
           <MdOutlineMail size={25} className="place-self-center m-2" />
