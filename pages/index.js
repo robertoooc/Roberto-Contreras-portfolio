@@ -1,12 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import { typingTestApp, musicApp, chatApp, tag } from "@/constants/constants";
 import TechStack from "@/components/TechStack";
 import Contact from "@/components/Contact";
-const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   return (
@@ -15,6 +13,9 @@ export default function Home() {
         <title>Roberto Contreras's Portfolio</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Roberto Contreras's Portfolio" />
+        <meta name="author" content="Roberto Contreras" />
+
       </Head>
       <div>
         <About />
