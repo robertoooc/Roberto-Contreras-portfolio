@@ -11,7 +11,7 @@ const About = () => {
           <div>
             <Image
               src="/imgs/portfolioPicture.png"
-              alt="me"
+              alt="Roberto Contreras"
               width="180"
               height="180"
               style={{ borderRadius: "100px" }}
