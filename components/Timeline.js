@@ -14,7 +14,7 @@ export default function Timeline() {
     );
   });
   return (
-    <div className="">
+    <div>
       <h1 className="text-center text-3xl font-medium underline">My Story</h1>
       {timelineDisplay}
     </div>

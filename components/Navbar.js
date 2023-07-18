@@ -1,4 +1,3 @@
-// import Link from next
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";

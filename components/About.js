@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex justify-center sm:justify-end h-fit">
           <div>
             <Image
-              src="/imgs/portfolioPicture.png"
+              src="/imgs/portfolioPicture.webp"
               alt="Roberto Contreras"
               width="180"
               height="180"

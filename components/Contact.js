@@ -1,6 +1,6 @@
 import { VscGithubInverted } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs";
-import { MdOutlineMail, MdPhoneIphone } from "react-icons/md";
+import { MdOutlineMail} from "react-icons/md";
 import { GrDocumentPdf } from "react-icons/gr";
 
 export default function Contact() {

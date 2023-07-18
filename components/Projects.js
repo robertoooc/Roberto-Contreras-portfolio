@@ -23,7 +23,7 @@ export default function Projects({ project }) {
       <h1 className="text-3xl font-medium">{project.name}</h1>
       <div className="xl:flex">
         <div className="">
-          <Image src={project.img} alt={project.name} />
+          <Image src={project.webp} alt={project.name} />
         </div>
         <div className="sm:mx-5">
           <div className="mt-1">

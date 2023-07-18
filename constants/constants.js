@@ -2,6 +2,10 @@ import typingTestAppImg from "../public/imgs/TypingTestApp.png";
 import discordBotImg from "../public/imgs/DiscordBot.png";
 import tagImg from "../public/imgs/tag.png";
 import musicAppImg from "../public/imgs/musicApp.png";
+import typingTestAppImgwebp from "../public/imgs/TypingTestApp.webp";
+import discordBotImgwebp from "../public/imgs/DiscordBot.webp";
+import tagImgwebp from "../public/imgs/tag.webp";
+import musicAppImgwebp from "../public/imgs/musicApp.webp";
 import { GiDiploma, GiMeatCleaver } from "react-icons/gi";
 import { RiComputerLine } from "react-icons/ri";
 import { SiProbot } from "react-icons/si";
@@ -17,6 +21,7 @@ export const typingTestApp = {
     "https://github.com/robertoooc/TypingTestApp-server",
   ],
   demo: "https://benevolent-medovik-143b82.netlify.app/",
+  webp: typingTestAppImgwebp,
   img: typingTestAppImg,
   demoAccount: true,
   buttons: [
@@ -45,6 +50,7 @@ export const musicApp = {
     "Developed an engaging lyrics web application that seamlessly combines the MusixMatch API for song search and details with album images from the Last.fm API. Users can create playlists, both private and public, with interactive features such as commenting and liking by other users, fostering a social and enjoyable experience.",
   github: ["https://github.com/robertoooc/project-2"],
   demo: "https://roberto-project-two-1114.herokuapp.com/",
+  webp: musicAppImgwebp,
   img: musicAppImg,
   demoAccount: true,
   buttons: [
@@ -62,6 +68,7 @@ export const chatApp = {
     "https://github.com/robertoooc/Discord-bot/blob/main/gifs/getResultsAll.gif",
   ],
   demo: "https://discord.com/oauth2/authorize?client_id=1106759915466403870&permissions=26829587381312&scope=bot",
+  webp: discordBotImgwebp,
   img: discordBotImg,
   demoAccount: false,
   buttons: [
@@ -83,6 +90,7 @@ export const tag = {
     "Developed a multiplayer game of tag using JavaScript and HTML Canvas with collision detection and sprite animations. Employed an Object-Oriented approach for code that is clear, flexible, and scalable.",
   github: ["https://github.com/robertoooc/project1-pitch"],
   demo: "https://robertoooc.github.io/project1-pitch/",
+  webp: tagImgwebp,
   img: tagImg,
   demoAccount: false,
   buttons: [{ name: "Github", link: "https://github.com/robertoooc/project1-pitch"}, { name: "Demo", link: "https://robertoooc.github.io/project1-pitch/"}]
