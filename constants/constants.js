@@ -119,7 +119,7 @@ export const timeline = [
   },
   {
     year: 2023,
-    text: "Completed General Assembly's Software Immersive program. Currently working on a project, a HotSchedules replica in typescript to showcase better understanding of SQL databases.",
+    text: "Completed General Assembly's Software Immersive program. Currently volunteering for One Global Community looking to gain experience and work with others.",
     icon: <RiComputerLine size={40} />,
   },
 ];
